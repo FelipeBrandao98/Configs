@@ -1,0 +1,51 @@
+{
+    "atomKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontFamily": "FiraCode-Retina",
+    "editor.fontLigatures": true ,
+    "editor.fontSize": 12,
+    "editor.rulers": [80, 120],
+    "eslint.autoFixOnSave": true,
+    "editor.formatOnSave": false,
+    "eslint.validate": [
+      {
+        "language": "javascript",
+        "autoFix": true
+      },
+      {
+        "language": "javascriptreact",
+        "autoFix": true
+      },
+      {
+        "language": "typescript",
+        "autoFix": true
+      },
+      {
+        "language": "typescriptreact",
+        "autoFix": true
+      }
+    ],
+    "editor.renderLineHighlight": "gutter",
+    "editor.tabSize": 2,
+    "terminal.integrated.fontSize": 12,
+    "emmet.includeLanguages":{
+      "javascript": "javascriptreact"
+    },
+    "emmet.syntaxProfiles": {
+      "javascript": "jsx"
+    },
+    "javascript.updateImportsOnFileMove.enabled": "never",
+    "editor.parameterHints.enabled": false,
+    "breadcrumbs.enabled": true,
+    "javascript.suggest.autoImports": false,
+    "workbench.colorTheme": "One Monokai",
+    "explorer.confirmDelete": false,
+    "workbench.activityBar.visible": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "liveServer.settings.donotShowInfoMsg": true
+}
+
